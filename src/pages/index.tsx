@@ -1,8 +1,12 @@
 import Head from 'next/head'
+import { NextPage } from "next";
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from "next/link";
+import React from "react";
+import { useRouter } from "next/navigation";
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -53,6 +57,7 @@ export default function Home() {
               >
                 Registrasi
               </Link>
+            </p>
           </form>
         </div>
       </div>
