@@ -46,14 +46,13 @@ export default function Home() {
               Login
             </button>
             <p className="mt-4 text-sm text-center text-gray-700">
-              Belum memiliki Akun?{" "}
+              Belum memiliki Akun?
               <Link
                 href="/register"
                 className="font-medium text-blue-600 hover:underline"
               >
                 Registrasi
               </Link>
-            </p>
           </form>
         </div>
       </div>
